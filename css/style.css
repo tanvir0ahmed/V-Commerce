@@ -1,0 +1,357 @@
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+*{
+    font-family: 'Merienda', cursive;
+}
+
+
+
+/* navbar */
+
+.logo{
+    width: 100px;
+}
+/* .navbar-brand{
+    padding-left: 10%;
+}
+.navbar ul{
+    padding-left: 50%;
+}
+
+.navbar ul>li{
+    padding-left: 3%;
+} */
+
+
+
+
+
+/* landing page */
+.landing-page{
+    padding-top: 5%;
+    
+}
+.landing-page-img{
+
+    width: 500px;
+    height: 500px;
+    background: url("../pic/background/bg-1.png")no-repeat;
+
+}
+
+.landing-page-content{
+    
+    background: url("../pic/background/bg-2.png")no-repeat 5% 100%;
+    
+    padding-top: 5% !important;
+    padding-right: 15% !important;
+    padding-left: 15% !important;
+}
+
+.landing-page-title{
+    font-weight: 700;
+    color: brown;
+    margin-bottom: 5%;
+}
+
+.landing-page-btn{
+    border-style: none;
+    border-radius: 5px;
+    background-color: brown;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s ease;
+
+}
+
+.landing-page-btn:hover{
+    border: 0.5px solid brown;
+    background-color: #fff;
+    color: brown;
+}
+
+
+.carousel-indicators>li{
+    background-color: brown !important;
+    margin-top: 5% !important;
+}
+
+/* category */
+
+#category{
+    margin-top: 10%;
+}
+.card{
+    background-color: rgb(243, 230, 212) !important;
+    transition: all 0.5s ease;
+    
+}
+.card:hover{
+    background-color: #fff !important;
+    object-fit: scale-down;
+    transform: scale(0.9);
+    transition-duration: .4s;
+    transition: all 0.5s ease;
+}
+
+.cart1, .cart2, .cart3, .cart4{
+    border-radius: 8px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-bottom: 3%;
+    transition: all 0.5s ease;
+}
+
+.cart1{
+    background-color: crimson;
+}
+
+.cart2{
+    background-color: rgb(231, 219, 42);
+}
+
+.cart3{
+    background-color: rgb(71, 130, 240);
+}
+
+.cart4{
+    background-color: brown;
+}
+
+.category-cart-img{
+    width: 100px;
+    height: 80px;
+}
+
+.cart1:hover{
+    border: 0.5px solid crimson;
+    background-color: #fff;
+}
+
+.cart2:hover{
+    border: 0.5px solid rgb(231, 219, 42);
+    background-color: #fff;
+}
+
+.cart3:hover{
+    border: 0.5px solid rgb(71, 130, 240);
+    background-color: #fff;
+}
+
+.cart4:hover{
+    border: 0.5px solid brown;
+    background-color: #fff;
+}
+
+
+/* shirts */
+
+#shirt-section{
+    margin-top: 10%;
+}
+
+.heading{
+    margin-bottom: 3%;
+}
+
+.more{
+    color: brown;
+
+}
+.card-title{
+    font-weight: 700;
+    color: brown;
+}
+.card-btn{
+    border-style: none;
+    background-color: crimson;
+    border-radius: 10px;
+    width: 70%;
+    height: 30px;
+}
+
+.shirt-cards{
+    border: none !important;
+    box-shadow: 5px 5px 10px lightgray;
+    
+}
+
+
+
+/* watch */
+
+#watch-section{
+    margin-top: 10%;
+}
+
+.watch-pic{
+    width: 50px;
+    height: 300px;
+}
+
+.watch-cards{
+    border: none !important;
+    box-shadow: 5px 5px 10px lightgray;
+    
+}
+
+/* banner */
+
+#banner{
+    margin-top: 10%;
+    
+}
+
+.banner-section{
+    height: 400px;
+    background: url("../pic/banner/add.jpg")no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner-title{
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.banner-content{
+    padding: 10%;
+    color: brown;
+}
+
+
+/* bags */
+
+#bag-section{
+    margin-top: 10%;
+}
+
+.bag-pic{
+    width: 50px;
+    height: 300px;
+}
+
+.bag-cards{
+    border: none !important;
+    box-shadow: 5px 5px 10px lightgray;
+    
+}
+
+
+/* jackets */
+
+#jacket-section{
+    margin-top: 10%;
+}
+
+.jacket-pic{
+    width: 50px;
+    height: 300px;
+}
+
+.jacket-cards{
+    border: none !important;
+    box-shadow: 5px 5px 10px lightgray;
+    
+}
+
+
+
+
+/* advertisement */
+
+#advertisement{
+    margin-top: 10%;
+}
+
+.advertisement-img{
+    width: 130px;
+    height: 130px;
+    transition: all 0.5s ease;
+    
+}
+
+.advertisement-img:hover{
+    background-color: #fff;
+    object-fit: scale-down;
+    transform: scale(0.9);
+    transition-duration: .4s;
+    transition: all 0.5s ease;
+}
+
+/* contact */
+
+#contact{
+    margin-top: 10%;
+    background-color: brown;
+}
+
+.content{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.form-control{
+    margin-bottom: 3%;
+}
+
+.submit{
+    border-style: none !important;
+    background-color: black !important;
+    color: #fff !important;
+}
+
+form{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+/* footer */
+footer{
+    background-color: brown;
+    padding-bottom: 5%;
+}
+.footer-img{
+    width: 200px;
+    
+}
+.icons a{
+    text-decoration: none !important;
+}
+.icons a>i{
+    color: #fff;
+    margin-right: 5%;
+    
+}
+
+footer ul>li{
+    list-style: none;
+    margin-bottom: 5%;
+}
+
+
+.footer-input{
+    border: 0;
+    outline: 0;
+    color: wheat;
+    background: transparent;
+    border-bottom: 0.5px solid black;
+}
+
+.footer-submit{
+    margin-top: 5%;
+    width: 100%;
+
+    background-color: rgb(243, 188, 179);
+    border-style: none;
+}
+
+.footer-subscription{
+    padding-top: 20%;
+}
